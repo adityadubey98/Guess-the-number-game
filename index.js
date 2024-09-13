@@ -35,7 +35,7 @@ else if(guess>100){
 }
 else{
     prevGuess.push(guess);
-    if(numGuess===11){
+    if(numGuess===10){
         displayGuess(guess);
         displayMessage(`Game Over. Random number was ${randomNumber}`);
         endGame();
